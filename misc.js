@@ -65,12 +65,10 @@ function misc() {
     class="button">Free i-Ready Games</button>
     <br>
     <br>
-    <button onclick="closeMisc" 
-    class="button">Close</button>
+    <button onclick="closeMisc()" class="button">Close</button>
     <br>
     <br>
-    <br>
-    <br>
+    <button onclick="name()" class="button">Custom Name</button>
 </div>`
 
         // specifies element to drag
@@ -79,6 +77,7 @@ function misc() {
     } else { // prevents cool menu from opening if its already open
         console.log('Misc Menu is already open.')
     }
+}
 
     function closeMisc() {
         // code to close cool menu
@@ -97,4 +96,8 @@ function misc() {
             location.reload()
         }
     }
+function name(){
+var nameprompt = prompt('What name do you want?', '<div class="css-1ii68kw e15psnz1">Insert name here:</div>')
+
+setInterval(function () { document.getElementById('firstname').innerHTML = nameprompt }, 1000);
 }
