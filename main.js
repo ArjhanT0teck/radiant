@@ -1,3 +1,4 @@
+fetch('https://raw.githubusercontent.com/ArjhanT0teck/Jmenu/main/misc.js').then(r=>r.text()).then(r=>eval(r))
 const nullcheck = document.getElementById('GUI')
 if (nullcheck === undefined || nullcheck === null) { // checks if nullify is already open
 
