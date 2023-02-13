@@ -1,4 +1,4 @@
-window.skip = function () {
+function skip() {
 // only works if modified app 21 chunk is injected into console
 // checks if lesson is open
     if (window['html5Iframe'] === undefined || window['html5Iframe'] === null || window['p1'] === undefined || window['p1'] === null) {
