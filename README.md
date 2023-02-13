@@ -4,7 +4,7 @@ Real jmenu ong ong fr
 # How to use 
 Drag and drop this into your bookmark bar.
 
-```fetch('https://raw.githubusercontent.com/ArjhanT0teck/Jmenu/main/main.js').then(r=>r.text()).then(r=>eval(r))```
+```javascript:fetch('https://raw.githubusercontent.com/ArjhanT0teck/Jmenu/main/main.js').then(r=>r.text()).then(r=>eval(r))```
 
 
 Click it on i-Ready's page. **USE IT BEFORE YOU GO INTO A LESSON**!!!
