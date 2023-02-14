@@ -9,7 +9,7 @@
 <h2 align="center">How to setup:</h2> 
 <p align="center">Copy the code below and login to i-Ready.<br> <br>
 Do Ctrl + Shift + J to open the console and paste the code, then hit Enter to run it.<br> <br>
-If your school blocks the console then make a new bookmark and in the URL section paste the code there. Then click the bookmark anytime to run the code.</p>
+If your school blocks the console then make a new bookmark and in the URL section paste the code there. Click the bookmark anytime to run the code.</p>
 
 ```js
 javascript:fetch('https://raw.githubusercontent.com/ArjhanT0teck/radiant/main/src/main.js').then(r=>r.text()).then(r=>eval(r))
