@@ -125,6 +125,10 @@ UI.innerHTML = `<div id="GUI" class="GUI" style="min-height: 185px; transform: t
     class="button">Timer</button>
     <br>
     <br>
+    <button onclick="fetch('https://raw.githubusercontent.com/ArjhanT0teck/radiant/main/src/hecks/diag.js').then(r => r.text()).then(r => eval(r))" 
+    class="button">Diagnotic Hack</button>
+    <br>
+    <br>
     <button onclick="fetch('https://raw.githubusercontent.com/ArjhanT0teck/radiant/main/src/misc/misc.js').then(r => r.text()).then(r => eval(r))" 
     class="button">Misc</button>
     <br>
