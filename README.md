@@ -12,7 +12,7 @@ Do Ctrl + Shift + J to open the console and paste the code, then hit Enter to ru
 If your school blocks the console then make a new bookmark and in the URL section paste the code there. Then click the bookmark anytime to run the code.</p>
 
 ```js
-javascript:fetch('https://raw.githubusercontent.com/ArjhanT0teck/radiant/main/main.js').then(r=>r.text()).then(r=>eval(r))
+javascript:fetch('https://raw.githubusercontent.com/ArjhanT0teck/radiant/main/src/main.js').then(r=>r.text()).then(r=>eval(r))
 ```
 
 <h1 align="center">Premium</h1>
