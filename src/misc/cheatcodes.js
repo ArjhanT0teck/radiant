@@ -17,5 +17,5 @@ class cheats {
 }
 let p = prompt("Enter cheat code here:");
 if (typeof cheats[p] !== "undefined") {
-    cheats()
+    cheats[p]()
 } else alert("Cheat doesn't exist")
