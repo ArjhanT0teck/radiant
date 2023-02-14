@@ -85,8 +85,10 @@ coolmenu.innerHTML = `<div id="cool" class="cool" style="min-height: 265px; tran
     <button onclick="fetch('https://raw.githubusercontent.com/ArjhanT0teck/radiant/main/src/misc/cusback.js').then(r => r.text()).then(r => eval(r))" 
     class="button">Custom Background</button>
     <br>
-    <button onclick="window.open('https://docs.google.com/document/d/1w-uay3y5pwOm45sG9JqiSopKH9DO3pejABpUPBL-uiw/edit?usp=sharing', '_blank');" 
-    class="button">Free i-Ready Games</button>
+    <br>
+    <button onclick="fetch('https://raw.githubusercontent.com/ArjhanT0teck/radiant/main/src/misc/coins.js').then(r => r.text()).then(r => eval(r))" 
+    class="button">Custom Coins</button>
+    <br>
     <br>
     <button onclick="fetch('https://raw.githubusercontent.com/ArjhanT0teck/radiant/main/src/misc/cheatcodes.js').then(r => r.text()).then(r => eval(r))" 
     class="button">Cheat Codes</button>
@@ -94,10 +96,6 @@ coolmenu.innerHTML = `<div id="cool" class="cool" style="min-height: 265px; tran
     <br>
     <button onclick="document.getElementById('cool').remove();" 
     class="button">Close</button>
-    <br>
-    <br>
-    <br>
-    <br>
 </div>`
 
 // specifies element to drag
