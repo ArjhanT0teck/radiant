@@ -123,18 +123,13 @@ UI.innerHTML = `<div id="GUI" class="GUI" style=" 185px; transform: translateX(0
     
     <button onclick="fetch('https://raw.githubusercontent.com/ArjhanT0teck/radiant/main/src/hecks/timer.js').then(r => r.text()).then(r => eval(r))" 
     class="button">Timer</button>
-    <br>
-    <br>
+
     <button onclick="fetch('https://raw.githubusercontent.com/ArjhanT0teck/radiant/main/src/hecks/diag.js').then(r => r.text()).then(r => eval(r))" 
-    class="button">Diagnotic Hack</button>
+    class="button">Diag Hack</button>
     <br>
     <br>
     <button onclick="fetch('https://raw.githubusercontent.com/ArjhanT0teck/radiant/main/src/misc/misc.js').then(r => r.text()).then(r => eval(r))" 
     class="button">Misc</button>
-    <br>
-    <br>
-    <br>
-    <br>
 </div>`
 
 // specifies element to drag
