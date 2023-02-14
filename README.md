@@ -1,4 +1,6 @@
-# Radiant
+<h1 align="center">Radiant</h1>
+<h3 align="center">cool i-ready heck</h3>
+<h2 align="center">[Radiant Discord](https://discord.gg/idea-s)</h2>
 
 # How to use 
 Drag and drop this into your bookmark bar.
