@@ -2,6 +2,10 @@
 <h3 align="center">cool i-ready heck</h3>
 <h2 align="center"><a href="https://discord.gg/idea-s">Radiant Discord</a></h2>
 
+<p align="center">
+<img src="https://res.cloudinary.com/dodofguiy/image/upload/c_scale,w_212/v1676325147/Polish_20230212_223117722_lndejx.png">
+</p>
+
 <h1 align="center">How to setup:</h1> 
 <p align="center">Copy the code below and login to i-Ready.<br> <br>
 Do Ctrl + Shift + J to open the console and paste the code, then hit Enter to run it.<br> <br>
