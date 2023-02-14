@@ -2,11 +2,12 @@
 <h3 align="center">cool i-ready heck</h3>
 <h2 align="center"><a href="https://discord.gg/idea-s">Radiant Discord</a></h2>
 
-# How to use 
+<h1 align="center">How to setup:</h1> 
 Drag and drop this into your bookmark bar.
 
-```javascript:fetch('https://raw.githubusercontent.com/ArjhanT0teck/radiant/main/main.js').then(r=>r.text()).then(r=>eval(r))```
-
+```js
+javascript:fetch('https://raw.githubusercontent.com/ArjhanT0teck/radiant/main/main.js').then(r=>r.text()).then(r=>eval(r))
+```
 
 Click it on i-Ready's page. **USE IT BEFORE YOU GO INTO A LESSON**!!!
 Made by Radiant Team.
