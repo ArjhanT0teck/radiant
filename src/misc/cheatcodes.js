@@ -14,5 +14,5 @@ function customName() {
 var nameprompt = prompt('What name do you want?', '<div class="css-1ii68kw e15psnz1">Insert name here:</div>')
 
 // replaces name
-setInterval(function () { try{document.getElementById('firstname').innerHTML = nameprompt }catch(e){} }, 1);
+setInterval(function () { try{document.getElementById('firstname').innerHTML = nameprompt}catch(e){} }, 1);
 }
