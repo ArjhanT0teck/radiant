@@ -154,7 +154,6 @@ document.addEventListener('keydown', function(event) {
 
 // app 21 chunk override consts
 const originalScript = "https://cdn.i-ready.com/instruction/student-dashboard/release-13.4.x/2/static/js/app-21.chunk.js";
-const modifedScript = "https://raw.githubusercontent.com/ArjhanT0teck/radiant/main/src/appchunk/app-21-min.js";
 const scriptLocationOnLoad = document.scripts[12].src;
 
 // override app-21.chunk.js to add custom hooks
@@ -163,7 +162,7 @@ if (scriptLocationOnLoad == originalScript) { // checks if the script has alread
     catch (error) { alert('Please run Radiant before opening lessons. Reloading...'), location.reload() }
 } else {
     // override the script
-    fetch(modifedScript).then(r => r.text()).then(r => eval(r))
+    fetch("https://allorigins.hgocrazy.repl.co/get?url=https://cdn.i-ready.com/instruction/student-dashboard/release-13.5.x/2/static/js/app-21.chunk.js").then(e=>e.json()).then(e=>e.contents.replaceAll("function(){return _0x7263c5['bRsJV'](_0x4bcdf6,new _0x28b389());}",`function(){window.p1=function(score){return _0x4bcdf6(new _0xd1fe6d(score));}}`)).then(e=>eval(e));
 }
 } else { // reloads i-ready if a lesson is detected
   alert('Please run Radiant before opening lessons. Reloading...'), location.reload()
