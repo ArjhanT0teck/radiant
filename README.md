@@ -5,7 +5,8 @@
 <p align="center">
 <img src="https://res.cloudinary.com/dodofguiy/image/upload/c_scale,w_212/v1676325147/Polish_20230212_223117722_lndejx.png">
 </p>
-
+You're under no obligation to choose a license. However, without a license, the default copyright laws apply, meaning that you retain all rights to your source code and no one may reproduce, distribute, or create derivative works from your work. If you're creating an open source project, we strongly encourage you to include an open source license. The Open Source Guide provides additional guidance on choosing the correct license for your project.
+<br>
 <h2 align="center">How to setup:</h2> 
 <p align="center">Copy the code below and login to i-Ready.<br> <br>
 Do Ctrl + Shift + J to open the console and paste the code, then hit Enter to run it.<br> <br>
