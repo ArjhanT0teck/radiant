@@ -87,6 +87,9 @@ coolmenu.innerHTML = `<div id="cool" class="cool" style="transform: translateX(0
 
     <button onclick="fetch('https://raw.githubusercontent.com/ArjhanT0teck/radiant/main/src/misc/cheatcodes.js').then(r => r.text()).then(r => eval(r))" 
     class="button">Cheat Codes</button>
+    
+    <button onclick="fetch('https://raw.githubusercontent.com/ArjhanT0teck/radiant/main/src/misc/clearlocal.js').then(r => r.text()).then(r => eval(r))" 
+    class="button">Clear localStorage</button>
     <br>
     <br>
     <button onclick="document.getElementById('cool').remove();" 
