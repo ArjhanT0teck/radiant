@@ -12,7 +12,10 @@ class cheats {
     }
     static dig = function() {
         window.open('https://digsite.garoikana.repl.co/', '_blank');
-
+    }
+    static coins = function() {
+        let e=prompt('How many coins do you want?')
+        localStorage.setItem('coins',parseInt(e))
     }
 }
 let p = prompt("Enter cheat code here:");
