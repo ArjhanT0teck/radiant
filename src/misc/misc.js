@@ -7,7 +7,7 @@ function dragElement(e){var n=0,t=0,o=0,u=0;function l(e){(e=e||window.event).pr
 
 // cool menu html and css
 var coolmenu = document.createElement("div");
-coolmenu.innerHTML = `<div id="cool" class="cool" style="min-height: 265px; transform: translateX(0px) translateY(-32px); opacity: 0.85; font-family: sans-serif; width: 124px; height: 137px; background: rgb(30, 30, 30); position: absolute; border-radius: 5px; display: grid; place-items: center; color: white; font-size: larger; top: 104px; left: 577px; position:absolute; z-index: 99999;">
+coolmenu.innerHTML = `<div id="cool" class="cool" style="transform: translateX(0px) translateY(-32px); opacity: 0.85; font-family: sans-serif; width: 124px; height: 270px; background: rgb(30, 30, 30); position: absolute; border-radius: 5px; display: grid; place-items: center; color: white; font-size: larger; top: 104px; left: 577px; position:absolute; z-index: 99999;">
     <h1 class="title"><center>Misc</center>
     </h1>
 <style>
