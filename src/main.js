@@ -1,5 +1,5 @@
 const nullcheck = document.getElementById('GUI')
-if (nullcheck === undefined || nullcheck === null) { // checks if nullify is already open
+if (nullcheck === undefined || nullcheck === null) { // checks if Radiant is already open
 
 // sets min farmer to disable on startup
 togglemin = 1;
@@ -159,27 +159,27 @@ const scriptLocationOnLoad = document.scripts[12].src;
 
 // override app-21.chunk.js to add custom hooks
 if (scriptLocationOnLoad == originalScript) { // checks if the script has already been loaded, if it has page gets reloaded
-    try { nullifyModal("Error!", "Please run Nullify before opening lessons.", goToDashboard) } // unused as of right now
-    catch (error) { alert('Please run Nullify before opening lessons. Reloading...'), location.reload() }
+    try { radiantModal("Error!", "Please run Radiant before opening lessons.", goToDashboard) } // unused as of right now
+    catch (error) { alert('Please run Radiant before opening lessons. Reloading...'), location.reload() }
 } else {
     // override the script
     fetch(modifedScript).then(r => r.text()).then(r => eval(r))
 }
 } else { // reloads i-ready if a lesson is detected
-  alert('Please run Nullify before opening lessons. Reloading...'), location.reload()
+  alert('Please run Radiant before opening lessons. Reloading...'), location.reload()
 }
-} else { // prevents nullify from opening if it's already open
-  console.log('Nullify is already open.')
+} else { // prevents Radiant from opening if it's already open
+  console.log('Radiant is already open.')
 }
 function freeify(e,i,t){e="game_button"+e,document.getElementById(e).outerHTML=`<button onclick="window.open('${i}')"id="${e}" audiostate="STOPPED" class="embu0a00 css-npot0f btn btn-link" aria-label="${t} game 50 Coins"><div class="css-bni2pa eny8iue0" style="flex: 1 1 0%;"><div id="BeGooped_card" class="e506b522 embu0a00 css-p7wppz node_modules--cainc-cauliflower-src-components-card-___Card__card bg-default"><header variant="default" class="e506b522-card-header embu0a00 css-9q55v2 card-header"><div class="css-j72rc6 enj526p0">${t}</div></header><div src="${console.log("its all fucking begooped no matter what")}" style='z-index:9999;' class="css-eey1av e506b523"><div class="css-j7lah4 e506b521"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"><circle cx="14.99" cy="15.05" r="11.99" fill="#f4d7a4"></circle><path d="M18.19,6.26A12,12,0,0,0,8.26,25,12,12,0,0,0,24.92,8.32,12,12,0,0,0,18.19,6.26Z" fill="#f2c32c"></path><circle cx="14.99" cy="15.05" r="8.4" fill="none" stroke="#d29a00" stroke-miterlimit="10" stroke-width="1.6"></circle><circle cx="15.01" cy="14.95" r="11.99" fill="none" stroke="#505050" stroke-linecap="round" stroke-linejoin="round"></circle></svg> 50</div></div></div></div></button>`}setInterval(function(){try{for(;"function Ur(){}"===String(document.getElementById("game_button0").onclick);)freeify(0,"https://cdn.i-ready.com/instruction/game-begooped/v1.6.x/1/","Be Gooped"),freeify(1,"https://cdn.i-ready.com/instruction/game-catstacker/v1.8.x/1/","Cat Stacker"),freeify(2,"https://cdn.i-ready.com/instruction/game-hpr/v1.6.x/1/","Path Sinners"),freeify(3,"https://cdn.i-ready.com/instruction/reward-games/master/49/game-lanerunner/","Galaxy Spirnt"),freeify(4,"https://cdn.i-ready.com/instruction/reward-games/master/49/game-bubbles/","Wizard Pinball"),freeify(5,"https://cdn.i-ready.com/instruction/reward-games/master/49/game-minedigger/","Dig Site")}catch(e){}},1);
-//put at bottom of nullify code
+//put at bottom of Radiant code
 setInterval(function(){if(document.getElementById('background-image').innerHTML!==localStorage.background){
     if(typeof localStorage.background!=="undefined"){
         document.getElementById('background-image').innerHTML=localStorage.background
     }
 }},1000)
 
-//put at bottom of nullify code
+//put at bottom of Radiant code
 setInterval(function(){if(document.getElementById('coin-amount').innerHTML!==localStorage.coins){
     if(typeof localStorage.coins!=="undefined"){
         document.getElementById('coin-amount').innerHTML=localStorage.coins
