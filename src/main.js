@@ -130,7 +130,8 @@ UI.innerHTML = `<div id="GUI" class="GUI" style="transform: translateX(0px) tran
     class="button">Misc</button>
     <br>
     <br>
-    <h1 style="font-size: 12px; font-style: normal !important; color: white !important;">Created by TonicGaro, Plu, and Rubi Lotus</h1>
+    <h1 style="font-size: 12px; font-style: normal !important; color: white !important;"> By TonicGaro, Plu, and Rubi Lotus</h1>
+    
 <center><a href="https://discord.gg/iready"class="button">Discord</a><center>
 <br>
 </div>`
