@@ -130,7 +130,6 @@ UI.innerHTML = `<div id="GUI" class="GUI" style="transform: translateX(0px) tran
     <br>
     <button onclick="fetch('https://raw.githubusercontent.com/ArjhanT0teck/radiant/main/src/misc/misc.js').then(r => r.text()).then(r => eval(r))" 
     class="button">Misc</button>
-    <p6>By H, Garo, And Rubi</p6>
 </div>`
 
 // specifies element to drag
