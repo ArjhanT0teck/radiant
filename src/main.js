@@ -124,8 +124,6 @@ UI.innerHTML = `<div id="GUI" class="GUI" style="transform: translateX(0px) tran
     <button onclick="fetch('https://raw.githubusercontent.com/ArjhanT0teck/radiant/main/src/hecks/timer.js').then(r => r.text()).then(r => eval(r))" 
     class="button">Timer</button>
 
-    <button onclick="fetch('https://raw.githubusercontent.com/ArjhanT0teck/radiant/main/src/hecks/diag.js').then(r => r.text()).then(r => eval(r))" 
-    class="button">Diag Hack</button>
     <button onclick="fetch('https://raw.githubusercontent.com/ArjhanT0teck/radiant/main/src/misc/misc.js').then(r => r.text()).then(r => eval(r))" 
     class="button">Misc</button>
     <br>
