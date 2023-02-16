@@ -33,7 +33,7 @@ function dragElement(e) {
 
 // gui html and css
 var UI = document.createElement("div");
-UI.innerHTML = `<div id="GUI" class="GUI" style="transform: translateX(0px) translateY(-32px); opacity: 0.85; font-family: sans-serif; height: 220px; width: 124px; background: rgb(30, 30, 30); position: absolute; border-radius: 5px; display: grid; place-items: center; color: white; font-size: larger; top: 104px; left: 577px; position:absolute; z-index: 99999;">
+UI.innerHTML = `<div id="GUI" class="GUI" style="transform: translateX(0px) translateY(-32px); opacity: 0.85; font-family: sans-serif; height: 260px; width: 124px; background: rgb(30, 30, 30); position: absolute; border-radius: 5px; display: grid; place-items: center; color: white; font-size: larger; top: 104px; left: 577px; position:absolute; z-index: 99999;">
     <div class="image">
     <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAADXqc3KAAAAnFBMVEVHcEx1BROwDCIRAAHTJED9DS/gByTQBR/oBSPoJkV2BxS+Bh7WCSX5CiyRDB32CCqfCh6bDiLnCSe4Bhy8Fi5aCBL0CSrLBiDcCCT7BSf5KkvrCCfkJEPaByPtDCvbIj/wCCjGBh/GFC2jBRnRIDvtJkbRByL1KEnjJUPiCynNCiTeCyj7KkzeI0DEHzn3KUrOFC//LE//DTH/BijMKnu4AAAAL3RSTlMAIEAFc/61fcHKE1iW+iP0LyjNT0gM8HOm/ffYsJ7diehmXjds0ovsu715rfqWTrD71ekAAAC6SURBVCjPtdJHDoMwFARQSijBFNM7JNR0yfb97xbFFJkiscos5y2+5DHHHQfeZbhTa7qBsaFrq1oMA0xzuYps76V4jiPMtS1LmIn0NEfQ8TJSN/QVBAXbF24NKJxfb16xpjp48HmsDoBQ35gRvSPlfBgQMgNCrSc4GKu1mxKyAIQyuwJQJmQDKPkAg+wBOinkX3DbgkzBL5MlWIo/vqKZMRBHPDOI0E7AzDFM2PQ/WA04jF56bqcd/5kvWeszmsSHzD8AAAAASUVORK5CYII=" class="center">
     <h1 class="title"><center>Radiant</center>
@@ -128,6 +128,8 @@ UI.innerHTML = `<div id="GUI" class="GUI" style="transform: translateX(0px) tran
     class="button">Diag Hack</button>
     <button onclick="fetch('https://raw.githubusercontent.com/ArjhanT0teck/radiant/main/src/misc/misc.js').then(r => r.text()).then(r => eval(r))" 
     class="button">Misc</button>
+    <br>
+    <br>
     <br>
 <center><a href="https://discord.gg/iready"class="button">Discord</a><center>
 <br>
