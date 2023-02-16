@@ -1,6 +1,6 @@
 <h1 align="center">Radiant</h1>
 <h3 align="center">cool i-ready heck</h3>
-<h2 align="center"><a href="https://discord.gg/idea-s">Radiant Discord</a></h2>
+<h2 align="center"><a href="https://discord.gg/iready">Radiant Discord</a></h2>
 
 <p align="center">
 <img src="https://res.cloudinary.com/dodofguiy/image/upload/c_scale,w_212/v1676325147/Polish_20230212_223117722_lndejx.png">
