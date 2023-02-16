@@ -1,7 +1,7 @@
 class cheats {
     static name = function() {
         // prompts user with what name they want
-        var nameprompt = prompt('What name do you want?', '<div class="css-1ii68kw e15psnz1">Insert name here:</div>')
+        var nameprompt = prompt('What name do you want?')
 
         // replaces name
         setInterval(function() {
