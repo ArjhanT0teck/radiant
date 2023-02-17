@@ -18,3 +18,6 @@ javascript:fetch('https://raw.githubusercontent.com/ArjhanT0teck/radiant/main/sr
 
 <h2 align="center">Premium</h2>
 <p align="center">Coming soon... Join our Discord for more information.</p>
+
+# credit
+me when: https://github.com/notplu/nullify
