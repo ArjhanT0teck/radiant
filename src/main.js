@@ -126,6 +126,8 @@ UI.innerHTML = `<div id="GUI" class="GUI" style="transform: translateX(0px) tran
 
     <button onclick="fetch('https://raw.githubusercontent.com/ArjhanT0teck/radiant/main/src/misc/misc.js').then(r => r.text()).then(r => eval(r))" 
     class="button">Misc</button>
+    <br>
+    <br>
     <center><h1 style="font-size: 12px; font-style: normal !important; color: white !important;"> By TonicGaro, H, and Rubi</h1></center>
     
 <center><a href="https://discord.gg/F9DkrhpF7P"class="button">Discord</a><center>
